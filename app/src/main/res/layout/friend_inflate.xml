@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/friend_not_accepted_inflate"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tvFriendUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:clickable="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvFriendNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_weight="40"
+        />
+
+
+    <Button
+    android:id="@+id/bFriendFriendNtoAcceptedAccept"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:text="Accept"/>
+
+    <Button
+        android:id="@+id/bFriendFriendNtoAcceptedDecline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="Decline"/>
+</LinearLayout>

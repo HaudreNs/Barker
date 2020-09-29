@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id = "@+id/forumTopicActivity">
+
+    <TextView
+        android:id="@+id/tvUserProfileTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Username:" />
+
+    <TextView
+        android:id="@+id/tvUserProfileUsername"
+        android:layout_width="304dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="53dp"
+        android:layout_toRightOf="@+id/tvUserProfileTextView1"
+        android:gravity="center"
+        android:text="Hello world" />
+
+    <TextView
+        android:id="@+id/tvUserProfileTextView2"
+        android:layout_width="68dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvUserProfileTextView1"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/tvUserProfileEmail"
+        android:layout_width="288dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tvUserProfileUsername"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/tvUserProfileTextView2"
+        android:gravity="center"
+        android:text="Hello world" />
+
+    <TextView
+        android:id="@+id/tvUserProfileTextView3"
+        android:layout_width="68dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/tvUserProfileTextView2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Names:" />
+
+    <TextView
+        android:id="@+id/tvUserProfileNames"
+        android:layout_width="304dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tvUserProfileTextView3"
+        android:layout_below="@+id/tvUserProfileEmail"
+        android:gravity="center"
+        android:text="Hello world" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Friend Request"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/tvUserProfileTextView3"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bUserProfileAddFriend"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tvUserProfileNames"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/bUserProfileAddFriend"
+        android:id="@+id/bUserProfileCancel"
+
+        />
+
+
+    
+
+
+</RelativeLayout>

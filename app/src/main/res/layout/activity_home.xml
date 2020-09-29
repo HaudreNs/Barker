@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:id = "@+id/addFriendActivity">
+
+
+    <ImageView
+        android:id="@+id/ivHomeProfile"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profile_image"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/ivHomeForum"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:src="@drawable/forum_image"
+        android:layout_toRightOf="@id/ivHomeProfile"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/ivHomeFriends"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ivHomeForum"
+        android:clickable="true"
+        android:src="@drawable/friend_list_image"
+         />
+
+    <ImageView
+        android:id="@+id/ivHomeAccommodations"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/accommodation_icon"
+        android:layout_below="@id/ivHomeProfile"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/ivHomeWalks"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/walk_image"
+        android:layout_below="@id/ivHomeForum"
+        android:layout_toRightOf="@id/ivHomeAccommodations"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        />
+
+</RelativeLayout>

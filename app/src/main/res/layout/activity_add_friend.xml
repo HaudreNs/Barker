@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id = "@+id/addFriendActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etAddFriendEmail"
+        android:text="Write your friends email "
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/etAddFriendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Friend email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/bAddFriendSendRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddFriendEmail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Send Request"
+        />
+</RelativeLayout>

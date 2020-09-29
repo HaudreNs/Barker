@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id = "@+id/accommodationPickedActivity">
+
+    <TextView
+        android:id="@+id/tvAccommodationTitle"
+        android:layout_width="395dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/textViewAccommodationTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAccommodationTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/tvAccommodationTopicRate"
+        android:text="Rating:" />
+
+    <TextView
+        android:id="@+id/tvAccommodationTopicRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAccommodationTitle"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvAccommodationTopicDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAccommodationTopicRate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewAccommodationTopic2"
+        android:layout_width="395dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/tvAccommodationTopicDescription"
+        android:gravity="center"
+        android:text="Rate This Accommodation:" />
+
+    <Spinner
+        android:id="@+id/spAccommodationTopicRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAccommodationTopic2"
+        android:layout_marginTop="20dp"
+        />
+    
+    <Button
+        android:id="@+id/bAccommodationPickedRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spAccommodationTopicRate"
+        android:text="Rate"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

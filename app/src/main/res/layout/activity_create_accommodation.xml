@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id = "@+id/accommodationPickedActivity">
+
+    <EditText
+        android:id="@+id/etCreateAccommodationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Accommodation Title" />
+
+
+    <EditText
+        android:id="@+id/etCreateAccommodationDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCreateAccommodationName"
+        android:layout_marginTop="20dp"
+        android:hint="Description" />
+
+    <Spinner
+        android:id="@+id/spCreateAccommodationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCreateAccommodationDescription"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/bCreateAccommodationAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spCreateAccommodationType"
+        android:text="Create accommodation"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

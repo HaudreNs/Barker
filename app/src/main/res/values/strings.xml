@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Barker</string>
+
+    <string-array name="accommodation_options">
+            <item>hotel</item>
+            <item>vet</item>
+            <item>establishment</item>
+        </string-array>
+
+</resources>
